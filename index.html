@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>PROJECT SIGN-UP FORM</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__left">
+        <img
+          class="container__background"
+          src="img/background.jpg"
+          alt="задний фон"
+        />
+        <div class="container__logo">
+          <img class="logo" src="img/logo.png" alt="лого" />ODIN
+        </div>
+      </div>
+      <div class="container__right">
+        <section class="container__section">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br />Sign
+          up now to get started.
+          <p class="container__paragraph">You <i>know</i> you want to.</p>
+        </section>
+        <form for="form" class="container__form" action="#" method="get">
+          <h3>Let's do this!</h3>
+          <div class="container__inputs">
+            <div class="container__input">
+              <label for="username">First name</label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Thor"
+                required
+              />
+            </div>
+            <div class="container__input">
+              <label for="surname">Last name</label>
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                placeholder="Odinson"
+                required
+              />
+            </div>
+            <div class="container__input">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="thorodinson@gmail.com"
+                required
+              />
+            </div>
+            <div class="container__input">
+              <label for="phone">Phone number</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="8(999)-999-9999"
+                required
+              />
+            </div>
+            <div class="container__input">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="12345"
+                minlength="5"
+                required
+              />
+            </div>
+            <div class="container__input">
+              <label for="confirmpassword">Confirm Password</label>
+              <input
+                type="password"
+                name="confirmpassword"
+                id="confirmpassword"
+                placeholder="12345"
+                minlength="5"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" class="container__button">Creat account</button>
+        </form>
+
+        <p class="container__footer">
+          Already have an account? <a href="#">Log in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

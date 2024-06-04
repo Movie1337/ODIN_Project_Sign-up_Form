@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+}
+
+.container__background {
+  width: 500px;
+}
+
+.container__logo {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100px;
+  background-color: black;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 60px;
+  opacity: 0.5;
+}
+
+.logo {
+  width: 60px;
+}
+
+.container__right {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(240, 237, 237);
+}
+
+.container__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 750px;
+  height: 250px;
+  margin-left: 40px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container__paragraph {
+  padding-top: 20px;
+}
+
+.container__form {
+  width: 100%;
+  height: 280px;
+  padding-left: 40px;
+  background-color: white;
+}
+
+.container__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+h3 {
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+.container__input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(57, 85, 247);
+  border-radius: 5px;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+.container__button {
+  width: 200px;
+  height: 40px;
+  margin-top: 65px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  background-color: #596d48;
+  border: 1px solid #596d48;
+  border-radius: 5px;
+}
+
+.container__button:hover {
+  background-color: rgb(24, 136, 61);
+  border: 1px solid rgb(24, 136, 61);
+  cursor: pointer;
+}
+
+.container__button:active {
+  background-color: rgb(180, 185, 182);
+  border: 1px solid rgb(180, 185, 182);
+}
+
+.container__footer {
+  margin-left: 40px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: 700;
+}
